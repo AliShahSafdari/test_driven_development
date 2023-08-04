@@ -15,7 +15,7 @@ RSpec.describe Solver do
   end
 
   describe '#reverse' do
-    it 'reverses the given string' do
+    it 'reverses the given string and word' do
       expect(Solver.reverse('hello')).to eq('olleh')
       expect(Solver.reverse('ruby')).to eq('ybur')
     end
